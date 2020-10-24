@@ -1,0 +1,38 @@
+#container {
+    text-align: center;
+    margin: 100px;
+    
+}
+
+#highscore {
+font-size: large;
+}
+
+#timer {
+
+}
+
+h1 {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+p {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center;
+
+}
+
+#start-button {
+    color: whitesmoke;
+    background-color: purple;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    font-style: italic;
+    border-radius: 25px;
+    border-width: thick;
+    border-color: black;
+    width: auto;
+    height: 75px;
+    
+}
