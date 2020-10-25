@@ -16,3 +16,7 @@ and scores div with an functioning "SUBMIT" button were not successful.
 Obviously, this was as far as I could add to this quiz.
 I was unable to connect the references from google foo and lectures together to complete this quiz.
 
+https://github.com/OJLXZ/Timed-Quiz
+
+ https://ojlxz.github.io/Timed-Quiz/
+ 
