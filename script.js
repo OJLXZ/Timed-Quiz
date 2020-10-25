@@ -1,10 +1,15 @@
 // convert IDs to variables
-var highscore = document.getElementById("highscore");
+var scores = document.getElementById("scores");
 var timer = document.getElementById("timer");
 var container = document.getElementById("container");
 var para1 = document.getElementById("paragraph1");
 var para2 = document.getElementById("paragraph2");
 var startBtn = document.getElementById("start-button");
+var quiz = document.getElementById("quiz");
+var scores = document.getElementById("scores");
+var initials = document.getElementById("initials");
+var submit = document.getElementById("submit");
+var submitResponse = document.getElementById("response");
 
 // Attempt to set timer from 08-INs Timers Intervals EXAMPLE
 var secondsLeft = 60;
@@ -30,6 +35,7 @@ startBtn.addEventListener("click", function () {
 // time +=10;
 // time -=10;
 
+// Create questions Array
 var questionArr = [
     { question: "A very useful tool used during development and debugging for printing content to the debugger is:",
       choices: ["Javascript", "terminal/bash", "for loop", "console.log"],
@@ -51,7 +57,22 @@ var questionArr = [
       choices: ["strings", "booleans", "alerts", "numbers"],
       answer: "booleans",
     },
-]
+  ]
 
-function quizChallenge(){
-  for (var i = 0; i <= questionArr.length; i++);
+// function quizChallenge(){
+//   for (var i = 0; i <= questionArr.length; i++); {
+//     var question = questionArr[i].question;
+//     document.write ( question );
+//     var options = questionArr[i].choices;
+//     document.body.appendChild(document.createElement("br"));
+//   }
+
+
+// Building scores "page"
+ submit.addEventListener("click", function(event) {
+   event.preventDefault();
+  console.log(event);
+ 
+  var response = "THANKS!";
+  submitResponse.textContent = response;
+ });
